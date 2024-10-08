@@ -1,4 +1,3 @@
-
 /* Fonts */
 :root {
   --default-font: "Roboto",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -647,6 +646,8 @@ section,
   font-size: 48px;
   font-weight: 700;
   margin-bottom: 20px;
+  color:#FFF;
+
 }
 
 .hero h2 .accent {
@@ -654,7 +655,7 @@ section,
 }
 
 .hero p {
-  color: color-mix(in srgb, var(--default-color), transparent 40%);
+  color: color-mix(in srgb, #FFF, transparent 0%);
   font-weight: 400;
   margin-bottom: 30px;
 }
