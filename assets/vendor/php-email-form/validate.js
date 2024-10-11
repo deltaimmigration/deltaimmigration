@@ -51,7 +51,7 @@
     })
     .then(response => {
       if (response.ok) {
-        return response.json(); // Ajustado para interpretar JSON
+        return response.json(); // Interpretar a resposta JSON
       } else {
         throw new Error(`${response.status} ${response.statusText} ${response.url}`);
       }
@@ -66,7 +66,7 @@
 
         // Se houver uma URL de redirecionamento, faz o redirecionamento
         if (data.next) {
-          window.location.href = data.next;
+          window.location.href = data.next; // Redireciona para "thanks.html"
         }
       } else {
         throw new Error(data ? data : 'Form submission failed and no error message returned from: ' + action);
