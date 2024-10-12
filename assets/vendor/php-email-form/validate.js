@@ -66,7 +66,7 @@
 
         // Se houver uma URL de redirecionamento, faz o redirecionamento
         if (data.ok) {
-          window.location.href = "thanks.html"; // Redireciona para "thanks.html"
+          window.location.href = 'thanks.html'; // Redireciona para "thanks.html"
         }
       } else {
         throw new Error(data ? data : 'Form submission failed and no error message returned from: ' + action);
