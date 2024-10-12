@@ -39,24 +39,6 @@
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
-
-  <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
-    <script type="text/javascript">
-        (function(){
-            emailjs.init("W97pV1pnjbkvtUy2T");
-        })();
-
-        function sendEmail(event) {
-            event.preventDefault();
-            emailjs.sendForm('service_ye9wvq8', 'template_653p62i', event.target)
-            .then(function() {
-                alert('Mensagem Enviada com Sucesso!');
-            }, function(error) {
-                alert('Mensagem não Enviada, Tenta Novamente!: ' + JSON.stringify(error));
-            });
-        }
-    </script>
-
  
 </head>
 <!-- Google tag (gtag.js) -->
