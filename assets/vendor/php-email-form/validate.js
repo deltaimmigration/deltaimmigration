@@ -65,7 +65,7 @@
         thisForm.reset();
 
         // Se houver uma URL de redirecionamento, faz o redirecionamento
-        if (data.next) {
+        if (data.ok) {
           window.location.href = "thanks.html"; // Redireciona para "thanks.html"
         }
       } else {
