@@ -45,6 +45,26 @@
   scroll-behavior: smooth;
 }
 
+.icon-circle {
+  width: 80px;
+  height: 80px;
+  border: 3px solid red;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin: 0 auto 15px auto;
+}
+
+.icon-circle img {
+  width: 70%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+
 /*--------------------------------------------------------------
 # General Styling & Shared Classes
 --------------------------------------------------------------*/
